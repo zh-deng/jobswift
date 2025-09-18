@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Job Swift",
+  "version": "1.0",
+  "description": "Highlights job cards across LinkedIn and Xing.",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.linkedin.com/jobs/*",
+        "*://www.xing.com/*jobs*/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
