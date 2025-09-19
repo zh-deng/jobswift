@@ -11,7 +11,9 @@
     {
       "matches": [
         "*://www.linkedin.com/jobs/*",
-        "*://www.xing.com/*jobs*/*"
+        "*://www.xing.com/*jobs*/*",
+        "*://www.arbeitsagentur.de/jobsuche/*",
+        "*://www.stepstone.de/jobs/*"
       ],
       "js": ["content.js"]
     }
